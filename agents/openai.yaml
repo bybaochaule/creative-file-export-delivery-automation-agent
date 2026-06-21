@@ -1,0 +1,14 @@
+interface:
+  display_name: "Creative File Export & Delivery Automation Agent"
+  short_description: "Builds organized creative export, folder, naming, preview, ZIP, and handoff workflows."
+  default_prompt: "Create a clean creative file delivery system with folders, naming, export rules, README, license placement, ZIP checks, and final QC."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools: []
+  files:
+    - SKILL.md
+    - README.md
+    - references/style-guide.md
